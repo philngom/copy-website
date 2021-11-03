@@ -1,0 +1,126 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  grid-template-rows: 10% 10% 1fr 10%;
+}
+
+header {
+  grid-template-columns: 2fr 4fr 1fr 1fr 1fr 1fr;
+  width: 100vw;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(40 37 37);
+}
+
+#logo img {
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  height: 75%;
+  margin: 0;
+}
+
+input {
+  width:50%;
+  height: 75%;
+  margin-top: 8px;
+  margin-right: 0;
+}
+
+#search {
+  display: flex;
+}
+
+#search-button {
+  background-color: orange;
+  border: none;
+  /* margin-left: 0; */
+}
+
+.gray {
+  color: gray;
+}
+
+.white {
+  color: white;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+nav {
+  background: #272746;
+  display: flex;
+  justify-content: space-between;
+}
+
+.smaller-font {
+  font-size: 0.8rem;
+}
+
+body {
+  background-image:url(images/popcorn-background.webp);
+}
+
+main {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+#main-top {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.delete-vert-margins {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.normal-font {
+  font-weight: normal;
+}
+
+#main-bottom {
+  margin-left: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-around;
+}
+
+footer {
+  background-color: black;
+
+}
+
+.box {
+  background-color: white;
+  width: 95%;
+}
+
+
+
+
+
+
